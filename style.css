@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(181, 207, 228);
+    font-family: 'Montserrat', sans-serif
+}
+.card{
+    align-items: center;
+    text-align: center;
+}
+.section1{
+    padding-top: 4rem;
+    height:100vh;
+}
+.section2{
+    display: block;
+    visibility: hidden;
+    margin-top: 0;
+    margin: 20px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+chart{
+    position: relative;
+    height:60vh ;
+    width:70vw;
+}
