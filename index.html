@@ -78,7 +78,7 @@
         function getCount() {
             let username = document.getElementById("username").value;
 
-            let a = "http://127.0.0.1:5000/" + username;
+            let a = "https://tglivesubsapi.vercel.app/getsubs/" + username;
             if (check == 0) {
                 timer = setInterval(function () { fetchdata(a); }, 3000);
 
